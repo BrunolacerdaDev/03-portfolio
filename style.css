@@ -1,0 +1,212 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+:root {
+  --body-bg-color: #22212c;
+  --text-color: #837e9f;
+  --bg-cards: #302f3d;
+  --bg-techs: #cb92b1;
+}
+
+body * {
+  font-family: "Merriweather Sans", sans-serif;
+  color: var(--text-color);
+}
+
+body {
+  background-color: var(--body-bg-color);
+  padding: 40px 40px 58px;
+}
+
+/* CONTAINER PAI  */
+
+#container-father {
+  display: flex;
+}
+
+/* CONTAINER MENU ESQUERDO */
+
+#container-left {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+/* CARD PROFILE */
+#profile {
+  width: 349px;
+  height: 292px;
+  background-color: var(--bg-cards);
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+  text-align: center;
+}
+
+#profile img {
+  width: 128px;
+  height: 128px;
+  margin: 32px auto 30px;
+}
+
+/* PERSONALIZAÇÃO DO TEXTO NO CARD PROFILE */
+#name {
+  font-size: 23px;
+  font-weight: 700;
+}
+
+#office {
+  margin-top: 10px;
+  font-size: 13px;
+  font-weight: 300;
+}
+
+/* CARD DE INFORMAÇÕES */
+#infos {
+  width: 348px;
+  height: 348px;
+  background-color: var(--bg-cards);
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+}
+
+#infos ul {
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+  font-size: 12px;
+  font-weight: 400;
+  padding: 30px 40px;
+}
+
+#infos ul li {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  gap: 20px;
+}
+#infos img {
+  width: 24px;
+  height: 24px;
+}
+
+/* CARD DE TECNOLOGIAS */
+#tech {
+  padding: 30px 20px;
+  width: 348px;
+  height: 208px;
+  background-color: var(--bg-cards);
+  border-radius: 20px;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+#tech h1 {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+#column-1 {
+  display: flex;
+  gap: 15px;
+  text-align: center;
+  margin: 20px 10px;
+}
+#column-2 {
+  display: flex;
+  gap: 15px;
+  text-align: center;
+  margin: 20px 10px;
+}
+#column-3 {
+  display: flex;
+  gap: 15px;
+  text-align: center;
+  margin: 20px 10px;
+}
+
+.skills {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 10px;
+  font-weight: 700;
+  color: black;
+  border-radius: 30px;
+  background: var(--bg-techs);
+  text-transform: uppercase;
+  width: 86px;
+  height: 24px;
+}
+
+#exp {
+  width: 348px;
+  height: 349px;
+  background-color: var(--bg-cards);
+  border-radius: 20px;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+#education {
+  width: 348px;
+  height: 352px;
+  background-color: var(--bg-cards);
+  border-radius: 20px;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+/* CONTAINER COLUNA DIREITA */
+#container-right {
+  display: flex;
+  flex-direction: column;
+  padding-left: 60px;
+  gap: 30px;
+}
+
+#bar {
+  width: 952px;
+  height: 86px;
+  background-color: var(--bg-cards);
+  border-radius: 20px;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+/* CONTAINER PAI DOS CARDS A/B */
+#cards {
+  display: flex;
+  gap: 30px;
+}
+
+#card-a {
+  width: 461px;
+  height: 186px;
+  background-color: var(--bg-cards);
+  border-radius: 20px;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+#card-b {
+  width: 461px;
+  height: 186px;
+  background-color: var(--bg-cards);
+  border-radius: 20px;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+/* DEMAIS CARDS */
+#bar-post {
+  width: 952px;
+  height: 86px;
+  background-color: var(--bg-cards);
+  border-radius: 20px;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+#post {
+  width: 952px;
+  height: 201px;
+  background-color: var(--bg-cards);
+  border-radius: 20px;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
