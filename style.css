@@ -140,20 +140,67 @@ body {
   height: 24px;
 }
 
+/* CARD DE EXPERIÊNCIAS */
+
 #exp {
   width: 348px;
   height: 349px;
   background-color: var(--bg-cards);
   border-radius: 20px;
   box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  padding: 30px 20px;
 }
 
+#exp h1 {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+#exp ul {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  margin: 20px 40px;
+}
+
+#exp ul li {
+  font-size: 14px;
+  font-weight: 700;
+}
+#exp ul li p {
+  font-size: 12px;
+  font-weight: 300;
+}
+
+/* CARD DE EDUCAÇÃO */
 #education {
   width: 348px;
   height: 352px;
   background-color: var(--bg-cards);
   border-radius: 20px;
   box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  padding: 30px 20px;
+}
+
+#education h1 {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+#education ul {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  margin: 20px 40px;
+}
+
+#education ul li {
+  font-size: 14px;
+  font-weight: 700;
+}
+#education ul li p {
+  font-size: 12px;
+  font-weight: 300;
 }
 
 /* CONTAINER COLUNA DIREITA */
