@@ -18,7 +18,7 @@ body * {
 
 body {
   background-color: var(--body-bg-color);
-  padding: 40px 40px 58px;
+  padding: 40px;
 }
 
 /* CONTAINER PAI  */
@@ -37,7 +37,8 @@ body {
 
 /* CARD PROFILE */
 #profile {
-  width: 349px;
+  width: 100%; /* Alterado para ocupar todo o espaço disponível */
+  max-width: 349px;
   height: 292px;
   background-color: var(--bg-cards);
   box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
@@ -46,8 +47,9 @@ body {
 }
 
 #profile img {
-  width: 128px;
-  height: 128px;
+  width: 100%;
+  max-width: 128px;
+  height: auto;
   margin: 32px auto 30px;
 }
 
@@ -65,8 +67,9 @@ body {
 
 /* CARD DE INFORMAÇÕES */
 #infos {
-  width: 348px;
-  height: 348px;
+  width: 100%;
+  max-width: 348px;
+  height: auto;
   background-color: var(--bg-cards);
   box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 20px;
@@ -95,8 +98,9 @@ body {
 /* CARD DE TECNOLOGIAS */
 #tech {
   padding: 30px 20px;
-  width: 348px;
-  height: 208px;
+  width: 100%;
+  max-width: 348px;
+  height: auto;
   background-color: var(--bg-cards);
   border-radius: 20px;
   box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
@@ -143,8 +147,9 @@ body {
 /* CARD DE EXPERIÊNCIAS */
 
 #exp {
-  width: 348px;
-  height: 349px;
+  width: 100%;
+  max-width: 348px;
+  height: auto;
   background-color: var(--bg-cards);
   border-radius: 20px;
   box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
@@ -174,8 +179,9 @@ body {
 
 /* CARD DE EDUCAÇÃO */
 #education {
-  width: 348px;
-  height: 352px;
+  width: 100%;
+  max-width: 348px;
+  height: auto;
   background-color: var(--bg-cards);
   border-radius: 20px;
   box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
@@ -209,6 +215,7 @@ body {
   flex-direction: column;
   padding-left: 60px;
   gap: 30px;
+  width: 100%;
 }
 
 #bar {
@@ -216,7 +223,8 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: 30px;
-  width: 952px;
+  width: 100%;
+
   height: 86px;
   background-color: var(--bg-cards);
   border-radius: 20px;
@@ -239,8 +247,8 @@ body {
 }
 
 #card-a {
-  width: 461px;
-  height: 186px;
+  width: 100%;
+  height: auto;
   background-color: var(--bg-cards);
   border-radius: 20px;
   box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
@@ -285,8 +293,8 @@ body {
 }
 
 #card-b {
-  width: 461px;
-  height: 186px;
+  width: 100%;
+  height: auto;
   background-color: var(--bg-cards);
   border-radius: 20px;
   box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
@@ -295,8 +303,8 @@ body {
 
 /* DEMAIS CARDS */
 #bar-post {
-  width: 952px;
-  height: 86px;
+  width: 100%;
+  height: auto;
   background-color: var(--bg-cards);
   border-radius: 20px;
   box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
@@ -308,8 +316,8 @@ body {
 #post {
   display: flex;
   padding: 30px 30px 40px;
-  width: 952px;
-  height: 201px;
+  width: 100%;
+  height: auto;
   background-color: var(--bg-cards);
   border-radius: 20px;
   box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
@@ -317,23 +325,28 @@ body {
 
 #pub-card {
   padding-left: 20px;
+  width: 100%;
 }
 #pub-title {
   font-size: 18px;
   font-weight: 700;
+  width: 100%;
 }
 #pub-subtitle {
   font-size: 14px;
   font-weight: 400;
   margin-bottom: 28px;
+  width: 100%;
 }
 #pub-text {
   font-size: 16px;
   font-weight: 400;
   margin-bottom: 11px;
+  width: 100%;
 }
 #pub-small-text ul {
   display: flex;
   gap: 10px;
   list-style: none;
+  width: 100%;
 }
