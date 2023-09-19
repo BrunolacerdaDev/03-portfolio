@@ -300,12 +300,40 @@ body {
   background-color: var(--bg-cards);
   border-radius: 20px;
   box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  padding: 30px;
+  font-size: 20px;
+  font-weight: 700;
 }
 
 #post {
+  display: flex;
+  padding: 30px 30px 40px;
   width: 952px;
   height: 201px;
   background-color: var(--bg-cards);
   border-radius: 20px;
   box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+#pub-card {
+  padding-left: 20px;
+}
+#pub-title {
+  font-size: 18px;
+  font-weight: 700;
+}
+#pub-subtitle {
+  font-size: 14px;
+  font-weight: 400;
+  margin-bottom: 28px;
+}
+#pub-text {
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 11px;
+}
+#pub-small-text ul {
+  display: flex;
+  gap: 10px;
+  list-style: none;
 }
